@@ -1,0 +1,53 @@
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 70px;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.image-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+  padding: 10px;
+  width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.image-scroll-container img {
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.arrow {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-left{
+    font-weight: bold;
+}
+
+.product-items-images{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}

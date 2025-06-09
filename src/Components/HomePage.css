@@ -1,0 +1,187 @@
+.Ecommerce-navbar{
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.Ecommerce-navbar-brandname{
+    margin-left: 10px;
+}
+
+/* search bar */
+
+.search-form-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-box-wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.Ecommerce-navbar-search{
+    width: 100%;
+    padding-left: 35px;
+}
+
+.Ecommerce-search-icon{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+/* navbar links */
+
+.Ecommerce-navbar-toggle{
+    border: none;
+    
+}
+
+.Ecommerce-navbar-links{
+    margin-left: auto;
+    display: flex;
+    font-size: 17px;
+}
+
+.Ecommerce-navbar-link-icons{
+    color: white;
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+/* home page slider field */
+
+.image{
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+}
+
+.main-content {
+  padding-top: 70px;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+/* home page product cards */
+
+.Ecommerce-cards{
+    width: 200px;
+    margin: 10px;
+}
+
+.Ecommerce-card-image{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 140px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Ecommerec-card-title{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.Ecommerce-card-actual-mrp{
+    margin-bottom: 4px;
+}
+
+.actual-price{
+    font-size: 12px
+}
+
+.discount{
+    color: green;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.Ecommerce-cards-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    border: none;
+    height: 30px;
+    width:50px;
+}
+
+
+.cards-cart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+    background-color: #2a2b2c;
+    border: none;
+}
+
+.card-details{
+    background-color: #f6f6f6;
+}
+
+.offcanvs{
+    width: 20px;
+}
+
+.custom-card-container {
+  border: 2px solid #ccc;
+  width: 450px;         /* Your custom width */
+  margin: 30px auto;    /* Center the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.inner-card {
+    width: 200px;
+  height: 310px;
+  margin: 5px;
+}
+
+.Ecommerce-product-adds{
+    width: 350px;
+    padding: 10px;
+    margin: 0;
+    
+}
+
+.product-add-bgcolor{
+    background-color: #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+}
+
+.Ecommerce-product-adds-ticket{
+    width: 290px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+.flight-tickets{
+
+}
+
+.custom-offcanvas{
+    width: 300px !important;
+}
+
+.product-image{
+
+}
